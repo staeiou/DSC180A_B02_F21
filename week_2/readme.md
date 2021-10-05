@@ -1,0 +1,3 @@
+## Assignment 2
+
+This notebook does not check to see if the editor actually made an edit to an article, only that they registered. Expand to filter out every user who did not make an edit in their first six months. You will need to either keep the first query to the revision table for every user and add a second query for every user to filter out those who did not make an edit, or you can try to modify the first query to revision table in the database to do return a result that will let you measure survival and do the filtering. Remember that you must join with the page table to filter by namespaces (articles are namespace 0). Here is an example query for getting a user's edits: https://quarry.wmcloud.org/query/59069
